@@ -1,4 +1,4 @@
-site_name: "MongoDB Wildfire Workshop on LinuxONE"
+site_name: "LinuxONE Bootcamp"
 nav:
   - Home: index.md
   - Hands-On Labs:
@@ -12,12 +12,12 @@ nav:
   - Locally Building docs: localdocbuild.md
  
 # Project Information
-site_url: 'https://github.com/samveluIBM/MongoDB-Wildfire-Workshop/'
-site_description: MongoDB Wildfire Workshop on LinuxONE
+site_url: 'https://github.com/samveluIBM/LinuxONE_Bootcamp/'
+site_description: LinuxONE Bootcamp
 site_author: Sam Amsavelu
 
 # Repository Information
-repo_url: 'https://github.com/samveluIBM/MongoDB-Wildfire-Workshop/'
+repo_url: 'https://github.com/samveluIBM/LinuxONE_Bootcamp/'
 docs_dir: 'docs'
 site_dir: 'site'
 remote_branch: 'gh-pages'
