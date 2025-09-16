@@ -22,7 +22,7 @@ Welcome to our LinuxONE Bootcamp for IBM Technology Sellers and IBM Business par
 * [Databases](assets/a.txt)
 * [Financial Applications](assets/a.txt)
 * [Java and Custom Applications](assets/a.txt)
-* [Watson and AI](assets/a.txt)
+* [watson and AI](assets/a.txt)
 
 
 ### Day Two
@@ -49,19 +49,30 @@ Welcome to our LinuxONE Bootcamp for IBM Technology Sellers and IBM Business par
 * [Get your Linux Server](assets/a.txt)
 * [Linux Usage Lab ](assets/a.txt)
 * [MongoDB Installation Lab ](assets/a.txt)
+* [MongoDB Usage Lab ](assets/a.txt)
 * [MongoDB Operations Lab (Backup / Restore, Startup / Shutdown)](assets/a.txt)
 * [MongoDB Advanced Operations Lab (Replication)](assets/a.txt)
 * [MongoDB Compass Lab ](assets/a.txt)
 
 
 
-
 ### Workshop authors
-* [Sam Amsavelu](mailto:samvelu@us.ibm.com)
-* [David Simpson](mailto:simpson.dave@ibm.com)
+
+* [Nabila Ahmad](assets/a.txt)
+* [Sam Amsavelu](assets/a.txt)
+* [Jacob Emery](assets/a.txt)
+* [Justice Heughan](assets/a.txt)
+* [Matt Kay](assets/a.txt)
+* [Jacklyn Kunkel](assets/a.txt)
+* [Vance Morris](assets/a.txt)
+* [Filipe Miranda](assets/a.txt)
+* [Barry Silliman](assets/a.txt)
+* [David Simpson](assets/a.txt)
+* [Kenny Stine](assets/a.txt)
+* [Garrett Woodworth](assets/a.txt)
+
 
 ### Acknowledgements
-* Thanks to the following Contributors for this workshop: Jacob Emery, Matt Mondics, Barry Silliman and Dorothy Quincy
 
-
-
+* Thanks to the following contributors for this workshop: Miao Zhang-Cohen
+ 
