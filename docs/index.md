@@ -1,4 +1,4 @@
-# LinuxONE Bootcamp 
+# LinuxONE Bootcamp updated on October 13th 2025 
 
 Welcome to our LinuxONE Bootcamp for IBM Technology Sellers and IBM Business partners. 
 
