@@ -79,6 +79,93 @@ Enter the following Linux commands to switch to **super user** for installation 
       [root@p1243-zvm1 tmp]#
 
       ```
+Enter the following Linux command to install  **git** module which is needed for our MongoDB installation. For **If this ok [y/N]:** prompt answer **y**
+
+``` bash
+   yum install git
+```
+
+???- example "The following is an example where the terminal will show that you have successfully installed **git** module [click to expand me]"
+
+      ```
+      [root@itzvsi-pvsbiee ~]# yum install git
+      Updating Subscription Management repositories.
+      Last metadata expiration check: 0:15:37 ago on Tue Oct 14 16:32:05 2025.
+      Dependencies resolved.
+      ====================================================================================================
+      Package              Arch       Version                  Repository                           Size
+      ====================================================================================================
+      Installing:
+      git                  s390x      2.47.3-1.el9_6           rhel-9-for-s390x-appstream-rpms      51 k
+      Installing dependencies:
+      emacs-filesystem     noarch     1:27.2-14.el9_6.2        rhel-9-for-s390x-appstream-rpms     8.9 k
+      git-core             s390x      2.47.3-1.el9_6           rhel-9-for-s390x-appstream-rpms     4.6 M
+      git-core-doc         noarch     2.47.3-1.el9_6           rhel-9-for-s390x-appstream-rpms     3.0 M
+      perl-DynaLoader      s390x      1.47-481.1.el9_6         rhel-9-for-s390x-appstream-rpms      25 k
+      perl-Error           noarch     1:0.17029-7.el9          rhel-9-for-s390x-appstream-rpms      46 k
+      perl-File-Find       noarch     1.37-481.1.el9_6         rhel-9-for-s390x-appstream-rpms      25 k
+      perl-Git             noarch     2.47.3-1.el9_6           rhel-9-for-s390x-appstream-rpms      38 k
+      perl-TermReadKey     s390x      2.38-11.el9              rhel-9-for-s390x-appstream-rpms      39 k
+      perl-lib             s390x      0.65-481.1.el9_6         rhel-9-for-s390x-appstream-rpms      14 k
+
+      Transaction Summary
+      ====================================================================================================
+      Install  10 Packages
+
+      Total download size: 7.9 M
+      Installed size: 40 M
+      Is this ok [y/N]: y
+      Downloading Packages:
+      (1/10) : emacs-filesystem-27.2-14.el9_6.2.noarch.rpm                 119 kB/s | 8.9 kB     00:00
+	(2/10): perl-Error-0.17029-7.el9.noarch.rpm                         605 kB/s |  46 kB     00:00
+	(3/10): perl-TermReadKey-2.38-11.el9.s390x.rpm                      443 kB/s |  39 kB     00:00
+	(4/10): git-core-2.47.3-1.el9_6.s390x.rpm                            75 MB/s | 4.6 MB     00:00
+	(5/10): git-2.47.3-1.el9_6.s390x.rpm                                786 kB/s |  51 kB     00:00
+	(6/10): git-core-doc-2.47.3-1.el9_6.noarch.rpm                       48 MB/s | 3.0 MB     00:00
+	(7/10): perl-DynaLoader-1.47-481.1.el9_6.s390x.rpm                  1.3 MB/s |  25 kB     00:00
+	(8/10): perl-lib-0.65-481.1.el9_6.s390x.rpm                         1.0 MB/s |  14 kB     00:00
+	(9/10): perl-File-Find-1.37-481.1.el9_6.noarch.rpm                  447 kB/s |  25 kB     00:00
+	(10/10): perl-Git-2.47.3-1.el9_6.noarch.rpm                         388 kB/s |  38 kB     00:00
+	----------------------------------------------------------------------------------------------------
+	Total                                                                33 MB/s | 7.9 MB     00:00
+	Running transaction check
+	Transaction check succeeded.
+	Running transaction test
+	Transaction test succeeded.
+	Running transaction
+  		Preparing        :                                                                            1/1
+  		Installing       : git-core-2.47.3-1.el9_6.s390x                                             1/10
+  		Installing       : git-core-doc-2.47.3-1.el9_6.noarch                                        2/10
+  		Installing       : perl-lib-0.65-481.1.el9_6.s390x                                           3/10
+  		Installing       : perl-File-Find-1.37-481.1.el9_6.noarch                                    4/10
+  		Installing       : perl-DynaLoader-1.47-481.1.el9_6.s390x                                    5/10
+  		Installing       : perl-TermReadKey-2.38-11.el9.s390x                                        6/10
+  		Installing       : emacs-filesystem-1:27.2-14.el9_6.2.noarch                                 7/10
+  		Installing       : perl-Error-1:0.17029-7.el9.noarch                                         8/10
+  		Installing       : git-2.47.3-1.el9_6.s390x                                                  9/10
+  		Installing       : perl-Git-2.47.3-1.el9_6.noarch                                           10/10
+  		Running scriptlet: perl-Git-2.47.3-1.el9_6.noarch                                           10/10
+  		Verifying        : perl-Error-1:0.17029-7.el9.noarch                                         1/10
+  		Verifying        : perl-TermReadKey-2.38-11.el9.s390x                                        2/10
+  		Verifying        : emacs-filesystem-1:27.2-14.el9_6.2.noarch                                 3/10
+  		Verifying        : git-2.47.3-1.el9_6.s390x                                                  4/10
+  		Verifying        : git-core-2.47.3-1.el9_6.s390x                                             5/10
+  		Verifying        : git-core-doc-2.47.3-1.el9_6.noarch                                        6/10
+  		Verifying        : perl-Git-2.47.3-1.el9_6.noarch                                            7/10
+  		Verifying        : perl-DynaLoader-1.47-481.1.el9_6.s390x                                    8/10
+  		Verifying        : perl-File-Find-1.37-481.1.el9_6.noarch                                    9/10
+  		Verifying        : perl-lib-0.65-481.1.el9_6.s390x                                          10/10
+		Installed products updated.
+
+	Installed:
+  	emacs-filesystem-1:27.2-14.el9_6.2.noarch            git-2.47.3-1.el9_6.s390x
+  	git-core-2.47.3-1.el9_6.s390x                        git-core-doc-2.47.3-1.el9_6.noarch
+  	perl-DynaLoader-1.47-481.1.el9_6.s390x               perl-Error-1:0.17029-7.el9.noarch
+  	perl-File-Find-1.37-481.1.el9_6.noarch               perl-Git-2.47.3-1.el9_6.noarch
+  	perl-TermReadKey-2.38-11.el9.s390x                   perl-lib-0.65-481.1.el9_6.s390x
+
+	Complete!
+      ```
 
 We have created an Ansible playbook repository to install MongoDB on a Red Hat Linux guest and clone that repository using the following command.
 
