@@ -12,11 +12,13 @@
         <meta name="author" content="Sam Amsavelu">
       
       
-        <link rel="canonical" href="https://github.com/samveluIBM/LinuxONE_Bootcamp/localdocbuild/">
+        <link rel="canonical" href="https://github.com/samveluIBM/LinuxONE_Bootcamp/getlinuxserver/">
       
       
-        <link rel="prev" href="../lab5_compass/">
+        <link rel="prev" href="..">
       
+      
+        <link rel="next" href="../lab0_linuxusage/">
       
       
       <link rel="icon" href="../assets/images/wsc-logo.png">
@@ -24,7 +26,7 @@
     
     
       
-        <title>Locally Building docs - LinuxONE Bootcamp</title>
+        <title>Get your Linux Server - LinuxONE Bootcamp</title>
       
     
     
@@ -78,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#building-the-documentation-yourself" class="md-skip">
+        <a href="#get-linux-server-from-ibm-techzone-cloud-environment" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Locally Building docs
+              Get your Linux Server
             
           </span>
         </div>
@@ -277,18 +279,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -304,7 +308,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Hands-On Labs
@@ -315,10 +319,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../getlinuxserver/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -329,6 +342,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -483,32 +497,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Locally Building docs
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../localdocbuild/" class="md-nav__link">
         
   
   
@@ -519,35 +511,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installing-necessary-pre-requisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installing Necessary Pre-requisites
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -572,23 +535,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installing-necessary-pre-requisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installing Necessary Pre-requisites
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -606,67 +552,12 @@
   
 
 
-<h1 id="building-the-documentation-yourself">Building the Documentation Yourself</h1>
-<p>!!! warning "For Documentation Contributors Only"</p>
-<div class="highlight"><pre><span></span><code>This is for people who want to update the documentation of `MongoDB Wildfire Workshop` and see the updates locally or if you are a regular user and are curious on how to do it. In most cases, just accessing the documentation via this site (https://samveluibm.github.io/MongoDB-Wildfire-Workshop/) is best. If you want to access the documentation without internet access, instead of following this documentation, you should navigate to the print page (which displays the documentation in printable format). Then, Print-&gt;Save to pdf in your web browser and access the PDF freely offline.
-</code></pre></div>
-<h2 id="installing-necessary-pre-requisites">Installing Necessary Pre-requisites</h2>
+<h1 id="get-linux-server-from-ibm-techzone-cloud-environment">Get Linux server from  IBM Techzone (Cloud environment)</h1>
 <ol>
-<li>Install pip3 on your computer, if it's not already installed (instructions vary depending on Operating System)</li>
-<li>
-<p>Install mkdocs and plugins used in <code>MongoDB Wildfire Workshop</code> documentation</p>
-<div class="highlight"><pre><span></span><code>pip3<span class="w"> </span>install<span class="w"> </span>mkdocs<span class="w"> </span>mkdocs-material<span class="w"> </span>mkdocs-git-revision-date-localized-plugin<span class="w"> </span>mkdocs-print-site-plugin
-</code></pre></div>
-</li>
-<li>
-<p>Get a local copy of the source code with:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">HTTPS</label><label for="__tabbed_1_2">SSH</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/samveluIBM/MongoDB-Wildfire-Workshop.git
-</code></pre></div>
-</div>
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:samveluIBM/MongoDB-Wildfire-Workshop.git
-</code></pre></div>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Change into the source code directory in your terminal</p>
-</li>
-<li>
-<p>Serve the documentation in a terminal while in your source code directory with:</p>
-<div class="highlight"><pre><span></span><code>mkdocs<span class="w"> </span>serve
-</code></pre></div>
-</li>
-<li>
-<p>Open a web browser and access the documentation</p>
-<p>The above <code>mkdocs serve</code> command should output an address to access the documentation which by default is: http://127.0.0.1:8000 which is over localhost (only accessible locally). Go to this address to access the documentation.</p>
-<p>!!! Tip "Documentation updates automatically"</p>
-<div class="highlight"><pre><span></span><code>If you leave the terminal tab where you ran `mkdocs serve` open, the docs will update automatically when your save your changes to the file. This way as you make changes you can check your changes at the given web site, displaying in the same way as it will when displayed as a static website on GitHub.
-</code></pre></div>
-</li>
-<li>
-<p>Make edits to the relevant markdown files in the <code>docs/</code> subfolder, and watch the changes display in realtime in your web browser when you save your file updates.</p>
-</li>
+<li>The Lab excercises will be performed on Red Hat Linux 9.x guests running on IBM Z system Cloud enviroment hosted from IBM Techzone</li>
+<li>To access the IBM Techzone (Cloud enviroment) you will need an IBMid</li>
+<li>Please follow the steps outlined in the <a href="../assets/getlinuxserver.pdf">getlinuxserver</a> to get your Linux VM server for performing the lab excercises.</li>
 </ol>
-<p>!!! Tip "Special Documentation Features"</p>
-<div class="highlight"><pre><span></span><code>To use the special features of `mkdocs-material` and the plugins used in these docs that enhance the documentation from traditional markdown, please take a look at the syntax for the various features. You can find examples of them in action in the markdown of this site by either:
-
-- Inspecting a given page of the site in your web browser
-
-    1. scroll to the top of a page with a feature you want to see how to use
-    2. click the page with an eye icon to the right of the title
-    3. Inspect the markdown for the part of the page with the given feature
-
-OR
-
-- See the markdown for the entire site in the `docs/` subfolder of the GitHub project, navigating the markdown files for each page
-
-Additionally, you can find more examples and explainers on the [mkdocs-material reference page](https://squidfunk.github.io/mkdocs-material/reference/){target=&quot;_blank&quot; rel=&quot;noopener&quot;}.
-</code></pre></div>
 
 
 
