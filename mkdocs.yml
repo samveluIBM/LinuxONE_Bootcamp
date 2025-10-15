@@ -3,7 +3,7 @@ nav:
   - Home: index.md
   - Hands-On Labs:
     - Get your Linux Server: getlinuxserver.md 
-    - Linux Usage Lab: onpremaccess.md
+    - Linux Usage Lab: lab0_linuxusage.md
     - MongoDB V8 Installation: lab1_8_install.md  
     - MongoDB Usage: lab2_basics.md 
     - MongoDB Operations: lab3_operations.md

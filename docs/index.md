@@ -47,7 +47,7 @@ Welcome to our LinuxONE Bootcamp for IBM Technology Sellers and IBM Business par
 ### Hands-on Labs
 
 * [Get your Linux Server](getlinuxserver.md)
-* [Linux Usage Lab ](assets/a.txt)
+* [Linux Usage Lab ](lab0_linuxusage.md)
 * [MongoDB Installation Lab ](assets/a.txt)
 * [MongoDB Usage Lab ](assets/a.txt)
 * [MongoDB Operations Lab (Backup / Restore, Startup / Shutdown)](assets/a.txt)
