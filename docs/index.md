@@ -1,4 +1,4 @@
-# LinuxONE Bootcamp updated on October 13th 2025 
+# LinuxONE Bootcamp (updated on Noveber 3rd 2025) 
 
 Welcome to our LinuxONE Bootcamp for IBM Technology Sellers and IBM Business partners. 
 
@@ -11,36 +11,37 @@ Welcome to our LinuxONE Bootcamp for IBM Technology Sellers and IBM Business par
 
 #### Fundamentals
 
-* [Why LinuxONE](assets/a.txt)
-* [All about LinuxONE Hardware](assets/a.txt)
-* [Operating Systems and Virtualization](assets/a.txt)
-* [OpenShift Container Platform and OpenShift Virtualization](assets/a.txt)
-* [LinuxONE Storage](assets/a.txt)
+* Why LinuxONE
+* All about LinuxONE Hardware
+* Operating Systems and Virtualization
+* OpenShift Container Platform and OpenShift Virtualization
+* LinuxONE Storage
 
 #### Workloads
 
-* [Databases](assets/a.txt)
-* [Financial Applications](assets/a.txt)
-* [Java and Custom Applications](assets/a.txt)
-* [watson and AI](assets/a.txt)
+* Databases
+* Financial Applications
+* Java and Custom Applications
+* watson and AI
 
 
 ### Day Two
 
 #### Automation and Observability
 
-* [Ansible](assets/a.txt)
-* [HashiCorp – Vault,Terraform,Nomad](assets/a.txt)
-* [Monitoring- Instana, Prometheus, Grafana](assets/a.txt)
-* [z/VM Data Pump](assets/a.txt)
-* [IBM Cloud Infrastructure Center](assets/a.txt)
+* Ansible
+* HashiCorp – Vault,Terraform,Nomad
+* Monitoring- Instana, Prometheus, Grafana
+* z/VM Data Pump
+* IBM Cloud Infrastructure Center
 
 #### Solutioning
 
-* [Use Cases](assets/a.txt)
-* [Sample Architectures](assets/a.txt)
-* [CPO, IT Economics](assets/a.txt)
-* [WSC Center of Excellence environment](assets/a.txt)
+* Use Cases
+* Sample Architectures
+* CPO, IT Economics
+* ONEstack: On-Prem Cloud Solution with IBM Fusion & LinuxONE
+* WSC Center of Excellence environment
 
 
 
@@ -48,37 +49,31 @@ Welcome to our LinuxONE Bootcamp for IBM Technology Sellers and IBM Business par
 
 * [Get your Linux Server](getlinuxserver.md)
 * [Linux Usage Lab ](lab0_linuxusage.md)
-* [MongoDB Installation Lab ](assets/a.txt)
-* [MongoDB Usage Lab ](assets/a.txt)
-* [MongoDB Operations Lab (Backup / Restore, Startup / Shutdown)](assets/a.txt)
-* [MongoDB Advanced Operations Lab (Replication)](assets/a.txt)
-* [MongoDB Compass Lab ](assets/a.txt)
+* MongoDB Labs 
 
 
 
 ### Workshop authors
 
-* [Nabila Ahmad](assets/a.txt)
+* Nabila Ahmad
 * Pedro Acosta
-* [Sam Amsavelu](assets/a.txt)
+* Sam Amsavelu
 * Michael Dudding
-* [Jacob Emery](assets/a.txt)
+* Jacob Emery
 * Anthony Gee
-* [Justice Heughan](assets/a.txt)
-* 
-* [Matt Kay](assets/a.txt)
-* [Jacklyn Kunkel](assets/a.txt)
-* [Vance Morris](assets/a.txt)
-* [Filipe Miranda](assets/a.txt)
+* Justice Heughan
+* Matt Kay
+* Jacklyn Kunkel
+* Vance Morris
+* Filipe Miranda
 * Paul Novak
-* [Barry Silliman](assets/a.txt)
-* [David Simpson](assets/a.txt)
-* [Kenny Stine](assets/a.txt)
+* Barry Silliman
+* David Simpson
+* Kenny Stine
 * Jin VanStee 
-* [Garrett Woodworth](assets/a.txt)
+* Garrett Woodworth
 
 
 ### Acknowledgements
 
 * Thanks to the following contributors for this workshop: Miao Zhang-Cohen
- 
