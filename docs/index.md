@@ -59,16 +59,22 @@ Welcome to our LinuxONE Bootcamp for IBM Technology Sellers and IBM Business par
 ### Workshop authors
 
 * [Nabila Ahmad](assets/a.txt)
+* Pedro Acosta
 * [Sam Amsavelu](assets/a.txt)
+* Michael Dudding
 * [Jacob Emery](assets/a.txt)
+* Anthony Gee
 * [Justice Heughan](assets/a.txt)
+* 
 * [Matt Kay](assets/a.txt)
 * [Jacklyn Kunkel](assets/a.txt)
 * [Vance Morris](assets/a.txt)
 * [Filipe Miranda](assets/a.txt)
+* Paul Novak
 * [Barry Silliman](assets/a.txt)
 * [David Simpson](assets/a.txt)
 * [Kenny Stine](assets/a.txt)
+* Jin VanStee 
 * [Garrett Woodworth](assets/a.txt)
 
 
